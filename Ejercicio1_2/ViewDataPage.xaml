@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_2.ViewDataPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nombre" HorizontalTextAlignment="Center" FontSize="Title" Margin="0,20,0,0"/>
+            <Label Text="{Binding Name}" x:Name="lblName" FontSize="Subtitle" HorizontalTextAlignment="Center"/>
+
+            <Label Text="Apellidos" HorizontalTextAlignment="Center" FontSize="Title" Margin="0,20,0,0"/>
+            <Label Text="{Binding LastName}" x:Name="lblLastName" FontSize="Subtitle" HorizontalTextAlignment="Center"/>
+
+            <Label Text="Edad" HorizontalTextAlignment="Center" FontSize="Title" Margin="0,20,0,0"/>
+            <Label Text="{Binding Age}" x:Name="lblAge" FontSize="Subtitle" HorizontalTextAlignment="Center"/>
+
+            <Label Text="Correo Electrónico" HorizontalTextAlignment="Center" FontSize="Title" Margin="0,20,0,0"/>
+            <Label Text="{Binding Email}" x:Name="lblEmail" FontSize="Subtitle" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
